@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* каркас батарек */
 .bat {
   box-sizing: border-box;
   height: 65px;
@@ -11,19 +12,23 @@
   position: relative;
 }
 
+/* красный цвет для батареи, используем линейный градиень */
 .rc{
   background: white;
   background: linear-gradient(90deg,red 60px,white  61px);
 }
 
+/* желтый цвет для батареи, используем линейный градиень */
 .yc{
   background: linear-gradient(to right,rgb(174, 233, 48) 110px, white 111px);
 }
 
+/* зеленый цвет для батареи */
 .gc{
   background: #00A055;
 }
 
+/* контейнер для батареек */
 .container{
   width: 200px;
   height: 220px;
@@ -34,6 +39,7 @@
   align-items: center;
 }
 
+/* пипка для батареи справа)) */
 .bat::after{
   box-sizing: border-box;
   display: inline-block;
