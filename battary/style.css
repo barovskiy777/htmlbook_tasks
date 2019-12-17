@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bat {
+  box-sizing: border-box;
+  height: 65px;
+  width: 175px;
+  border: 3px solid #000;
+  position: relative;
+}
+
+.rc{
+  background: white;
+  background: linear-gradient(90deg,red 60px,white  61px);
+}
+
+.yc{
+  background: linear-gradient(to right,rgb(174, 233, 48) 110px, white 111px);
+}
+
+.gc{
+  background: #00A055;
+}
+
+.container{
+  width: 200px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:20px auto;
+  align-items: center;
+}
+
+.bat::after{
+  box-sizing: border-box;
+  display: inline-block;
+  content:"";
+  width: 9px;
+  height: 20px;
+  border:1px solid #000;
+  background: #000;
+  position:relative;
+  left:170px;
+  top:19px;
+}
