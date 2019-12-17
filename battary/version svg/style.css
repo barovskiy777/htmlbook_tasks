@@ -1,0 +1,55 @@
+svg {
+  height: 300px;
+  width: 300px;
+  margin:20px 20px;
+}
+
+/* каркас для всех батареек */
+.bat {
+  x: 10px;
+  y: 10px;
+  width: 175px;
+  height: 60px;
+  stroke: black;
+  stroke-width: 3px;
+}
+
+/* расположение батарейки 2 */
+.bat2 {
+  x:10px;
+  y:85px;
+}
+
+/* расположение и заливка батарейки 3  */
+.bat3 {
+  x:10px;
+  y:160px;
+  fill: green;
+}
+
+/* пипка для батарейки 1 */
+.pipka {
+  width: 10px;
+  height: 20px;
+  fill: black;
+  x: 185px;
+  y: 30px;
+}
+
+/* пипка для батарейки 2 */
+.pipka2 {
+  width: 10px;
+  height: 20px;
+  fill: black;
+  x: 185px;
+  y:105px;
+}
+
+/* пипка для батарейки 3 */
+.pipka3 {
+  width: 10px;
+  height: 20px;
+  fill: black;
+  x: 185px;
+  y:180px;
+}
