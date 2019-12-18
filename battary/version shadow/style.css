@@ -1,0 +1,25 @@
+/* общий каркас батарейки */
+.bat {
+  box-sizing: border-box;
+  width: 175px;
+  height: 65px;
+  border: 3px solid black;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* красная батарейка */
+.bat1 {
+  box-shadow: inset 50px 0 0 0 red, 30px 0 0 -22px black;
+}
+
+/* желтая батарейка */
+.bat2 {
+  box-shadow: inset 100px 0 yellow, 30px 0 0 -22px black;
+}
+
+/* зеленая батарейка */
+.bat3 {
+  background: green;
+  box-shadow: 30px 0 0 -22px black;
+}
