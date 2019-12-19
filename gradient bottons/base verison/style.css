@@ -1,0 +1,115 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	margin:20px;
+	min-width:100%;
+	font:0.9em sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+ 	/*кнопка 1*/
+.botton1{
+	display:inline-block;
+	box-sizing: border-box;
+	width: 145px;
+	height: 25px;
+	background: linear-gradient(180deg,#1FC4DB 30%,#E3FDFE 100%);
+	border: 1px solid #4D7B83;
+	border-radius: 5px;
+	box-shadow: 0 0 12px rgba(0,0,0,.3);
+	text-align: center;
+	line-height:1.8;
+	margin: 0;
+	margin-right: 5px;
+
+
+}
+
+/*кнопка 2*/
+.botton2{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 140px;
+	height: 25px;
+	background: linear-gradient(180deg,#46E35E ,#39B84D 45%,#39B84D 55%, #46E35E 100%);
+	border: 1px solid #4D7B83;
+	border-radius: 5px;
+	box-shadow: 0 0 12px rgba(0,0,0,.3);
+	text-align: center;
+	line-height:1.8;
+	margin-right:5px;
+
+}
+
+/*кнопка 3*/
+.botton3{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 185px;
+	height: 30px;
+	background: linear-gradient(180deg,white ,#9BE2F0 20%,#3ACBEB 40%,#03BCD9 100%);
+	border: 1px solid #4D7B83;
+	border-radius: 5px;
+	box-shadow: 0 0 12px rgba(0,0,0,.3);
+	text-align: center;
+	line-height:1.8;
+	margin-right:5px;
+
+
+}
+
+	/*меняем цвет текста у кнопки 3*/
+.botton3 a{
+	color:white;
+}
+
+/*кнопка 4*/
+.botton4{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 185px;
+	height: 30px;
+	background: linear-gradient(180deg,white,#B8B8B8 20% ,#848484 50%,#373636  60%, #2E2D2D 80%,#232323 100%);
+	border: 3px solid #666666;
+	border-radius: 5px;
+	box-shadow: 0 0 12px rgba(0,0,0,.3);
+	text-align: center;
+	line-height:1.8;
+
+
+
+}
+
+/*меняем цвет текста у кнопки 4*/
+.botton4 a{
+	color:white;
+}
+
+	/*кнопка 5*/
+.botton5{
+	display: inline-block;
+	box-sizing: border-box;
+	width: 150px;
+	height: 30px;
+	background: linear-gradient(180deg,#E8E8E9,#E8E8E9 50%,#DADADA 60%,#C3C4C6 100%);
+	border: 3px solid #9C9C9C;
+	border-radius: 5px;
+	box-shadow: 0 0 12px rgba(0,0,0,.3);
+	text-align: center;
+	line-height:1.8;
+	border-right: 0;
+	border-bottom: 0;
+
+}
+
+
+
+
+
