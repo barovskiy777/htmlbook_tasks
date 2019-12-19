@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+	/*стили для контейнера*/
+.container{
+	width: 400px;
+	height: 100px;
+	background: green;
+	margin: 20px auto;
+	color: white;
+	padding:10px 10px;
+	box-sizing: border-box;
+	font:1em sans-serif;
+	display:table;
+	position:relative;
+	background: linear-gradient()
+}
+
+	/*углы с помощью градиента*/
+.corners{
+	position:absolute;
+	width: 6px;
+	height: 100%;
+	background: linear-gradient(to bottom,transparent 6px,green 6px,green 60%,transparent 60%),linear-gradient(to top,transparent 6px,green 6px,green 60%,transparent 60%) 
+	
+}
+
+	/*позиционирование левых углов*/
+.corner-left{
+	top:0;
+	left:-6px;
+}
+
+	/*позиционирование правых углов*/
+.corner-right{
+	top:0;
+	right:-6px;
+}
+
+	/*абзац текста внутри container*/
+.container p {
+	display:table-cell;
+	height: 100%;
+	vertical-align: middle;
+	
+}
