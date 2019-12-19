@@ -1,0 +1,35 @@
+body{
+	background: #CECBCF;
+}
+
+.container{
+	width:200px;
+	height: 40px;
+	box-sizing: border-box;
+	border:5px solid white;
+	overflow:hidden;
+	background: #999;
+	border-radius: 5px;
+	margin:30px;
+}
+
+.load{
+	width: 400px;
+	height: 40px; 
+	/*background: -webkit-repeating-linear-gradient(45deg,rgba(255,255,255, .9) 0,rgba(255,255,255,.9) 5px,transparent 5px,transparent 10px);*/
+	animation:load 5s infinite linear ;
+	box-shadow:  inset 100px 0 0 green;
+
+}
+
+
+@keyframes load {
+	from{
+		/*margin-left:0;*/
+		box-shadow:0 0 0 green;
+	}
+	to{
+		/*margin-left: -100%;*/
+		box-shadow: inset 200px 0 0 green;
+	}
+}
