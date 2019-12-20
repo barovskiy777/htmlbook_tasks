@@ -1,0 +1,27 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #F9F1A8;
+	padding:20px;
+	
+}
+
+.text {
+	box-sizing:border-box;
+	/*background: #fff;*/
+	padding:20px;
+	border:5px solid #E9B700;
+	box-shadow:inset 5px 5px #EB7223;
+
+
+}
+
+.container {
+	border: 5px solid #EB7223;
+	border-top:none;
+	border-left:none;
+}
+
