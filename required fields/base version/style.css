@@ -28,11 +28,18 @@ input:required + span:after{
 	right: -35px;
 }
 
-/*input:optional {
-	content: "dfsffds";
-	z-index: 100;
+
+input:valid + span:after {
+	content: "";
 	display: inline-block;
-	width: 20px;
+	width: 30px;
 	height: 30px;
-	background: green;
-}*/
+	background: url(../images/ok.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top:-5px;
+	right: -35px;
+}
+
+
+
