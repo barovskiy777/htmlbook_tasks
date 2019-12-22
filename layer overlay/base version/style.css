@@ -1,0 +1,28 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	margin:10px;
+}
+
+h1 {
+
+	font-weight: normal;
+	font-size: 2em;
+	width: 100%;
+	background: green;
+	padding:20px 10px;
+	color:white;
+}
+
+p {
+	background: #DFE6E1;
+	padding:20px 10px;
+	margin-left: 50px;
+	margin-top: -10px;
+	border:1px solid white;
+	border-right: none;
+}
