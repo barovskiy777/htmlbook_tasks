@@ -1,0 +1,12 @@
+.page-number {
+	width: 20px;
+	height: 20px;
+	background: linear-gradient(#F9F9F8,#D4CEC7);
+	box-shadow: 0 0 5px rgba(0,0,0, .5);
+	text-align: center;
+	line-height: 1.2em;
+	display: inline-block;
+	margin:5px;
+	border-radius: 15%;
+
+}
