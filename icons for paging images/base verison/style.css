@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	background: rgba(104,104,104);
+}
+
+
+.slider {
+	width: 600px;
+	height: 300px;
+	box-shadow: 0 0 10px black;
+	margin:40px auto 0;
+	position: relative;
+}
+
+.slider input {
+	display:none;
+}
+
+.slides{
+	width: 	inherit;
+	height: inherit;
+	
+}
+
+		/*общие стили для слайдов(прозрачность,z-index)*/
+.slide {
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	z-index: 0;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+
+
+}
+
+.slide1{
+	background: url(../images/slide1.jpg);
+	background-size: cover;
+	
+}
+
+.slide2{
+	background: url(../images/slide2.jpg);
+	background-size: cover;
+	
+}
+
+.slide3{
+	background: url(../images/slide3.jpg);
+	background-size: cover;
+}
+
+
+.slide4{
+	background: url(../images/slide4.jpg);
+	background-size: cover;
+}
+
+.slide5{
+	background: url(../images/slide5.jpg);
+	background-size: cover;
+}
+	
+		/*кнопки переключатели между слайдами*/
+.slider label {
+	display:inline-block;
+	height: 12px;	
+	width: 12px;	
+	border-radius: 50%;
+	border:2px solid white;
+	position: relative;
+	bottom:20px;
+	margin-right: 10px;
+	background: rgba(0,0,0,.5);
+	z-index: 2;
+
+}
+
+		/*анимиция кнопок при наведении мыши*/
+.slider label:hover{
+	box-shadow: 0 0 10px 4px white;
+	background: rgba(0,0,0,1);
+}
+
+.controls {
+	position: absolute;
+	left:40%;
+}
+
+		/*при нажании на кнопку появляется привязанная к ней картинка*/
+#slide1:checked ~ .slides > .slide1,
+#slide2:checked ~ .slides > .slide2, 
+#slide3:checked ~ .slides > .slide3,
+#slide4:checked ~ .slides > .slide4,
+#slide5:checked ~ .slides > .slide5 {
+	opacity: 1;
+	z-index:1;
+}
+
+		/*нажатая кнопка выделина фоном и тенью*/
+#slide1:checked ~ .controls > label:nth-child(1),
+#slide2:checked ~ .controls > label:nth-child(2),
+#slide3:checked ~ .controls > label:nth-child(3),
+#slide4:checked ~ .controls > label:nth-child(4),
+#slide5:checked ~ .controls > label:nth-child(5){
+		background: rgba(157,4,7);
+		box-shadow: 0 0 10px 4px white;
+
+}
+
+
+
+
+
+
+
+
+
