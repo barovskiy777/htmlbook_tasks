@@ -1,0 +1,38 @@
+body {
+
+	
+	
+}
+
+.psih {
+	
+	background:url(images/bg.png) 5% 5% no-repeat ,#E1E3B8;
+	width:600px;
+}
+
+.psih h2 {
+	font-size:1.2em;
+}
+
+.psih legend {
+	color:#A95C43;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.psih label,.psih button {
+	display:block;
+	margin-left:25%;
+	margin-bottom:20px;
+}
+
+.psih button{
+	background: #B98F5C;
+	color:white;
+}
+
+.div{
+	width: 100px;
+	height: 20px;
+	background: green;
+}
