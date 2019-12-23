@@ -1,0 +1,52 @@
+body { background: #333; }
+   div {
+   
+    border: 2px solid #28a028;
+    background: #fff;
+    display: inline-block;
+    margin-right: 5px;
+
+   }
+	/*первый вариант: line-height*/
+   div.im1{
+   	line-height: 0;
+   }
+
+	/*второй вариант: block*/
+   div.im2 img {
+   	display: block;
+
+   }
+   div.im2  {
+   	position: relative;
+   	top:2px;
+   	
+   }
+	
+	/*третий вариант: фиксироавнная высота*/
+   div.im3 {
+		height: 120px;
+   }
+
+
+   div.im4 img{
+		vertical-align: middle;
+
+   }
+   div.im4{
+		position: relative;
+		top:-56px;
+		
+   }
+
+
+   div.im5{
+   	box-sizing: border-box;
+   	height: 125px;
+   	width: 130px;
+	background: url(http://img-fotki.yandex.ru/get/15584/221669934.0/0_139b59_ef1762fd_L.jpg) no-repeat;
+	background-size:cover;
+   }
+
+
+	
