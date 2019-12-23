@@ -1,0 +1,69 @@
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	margin: 30px auto 10px;
+	
+	text-align: center;
+}
+
+.weather-cell {
+	display: inline-block;
+	width: 135px;
+	height: 180px;
+	max-height: 180px;
+	position: relative;
+	margin: -1px;
+	padding: 0;
+	text-align: center;
+	
+}
+
+.weather-cell:hover {
+	box-shadow:0 0 5px 3px rgba(0,0,0,.5);
+	
+}
+
+.weather-cell h2 {
+	height: 30px;
+	width: 100%;
+	background: #0097B9;
+	margin: 0;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.2em;
+	color:white;
+}
+
+.weather-cell p {
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+	font-size: 30px;
+	text-align: center;
+	
+}
+
+.weather-cell p sup{
+	font-size:20px;
+}
+
+.sun {
+	background: url(../images/weather-sun.jpg) center 30px no-repeat;
+
+}
+
+.snow {
+	background: url(../images/weather-snow.jpg) center 30px no-repeat;
+
+}
+.blizzard {
+	background: url(../images/weather-blizzard.jpg) center 30px no-repeat;
+
+}
+
+
