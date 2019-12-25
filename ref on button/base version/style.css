@@ -1,0 +1,14 @@
+.button {
+	margin:30px;
+	display: inline-block;
+	border:1px solid black;
+	text-decoration: none;
+	color:black;
+	padding:5px 10px ;
+}
+
+.button:hover {
+	background: linear-gradient(#FAFDF0,#EAEACF);
+	color:#B00000;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
