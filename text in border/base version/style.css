@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display:inline-block;
+	outline:1px solid #000;
+	margin: 30px;
+	border: 1px solid #fff;
+	font-family: sans-serif;
+}
+
+.wrapper:before {
+	content:"black";
+	background: #fff;
+	padding:25px 3px 5px 10px;
+	
+}
+
+.wrapper:after {
+	content:"white";
+	background: #000;
+	color:#fff;	
+	padding: 0;
+	margin: 0;
+	padding:25px 10px 5px 3px;
+}	
+
+.wrapper:after,.wrapper:before {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 3em;
+
+}
