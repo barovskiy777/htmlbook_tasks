@@ -1,0 +1,41 @@
+*{
+	box-sizing: border-box;
+}
+
+.frame {
+	position: relative;
+	width: 380px;
+	height: 40px;
+	margin-bottom: 15px;
+	background: linear-gradient(121deg,white 4.5%,#878F94 4.5%,#878F94 95.7%,white 95.7%);
+
+}
+
+.frame span {
+	display: inline-block;
+	color:#fff;
+	margin:10px 20px;
+
+}
+
+
+.frame .inner {
+	position: absolute;
+	top:13px;
+	right: 19px;
+	height: 18px;
+	width: 200px;
+	
+}
+
+.frame .inner1 {
+	background:linear-gradient(121deg,transparent 10px,#51DBB3 10px,#51DBB3 27px,transparent 27px, transparent 39px,#51DBB3 39px,#51DBB3 56px,transparent 56px,transparent 68px,#DBD651 68px,#DBD651 85px,transparent 85px,transparent 97px,#DBD651 97px,#DBD651 114px,transparent 114px,transparent 126px,#DB8F51 126px,#DB8F51 143px,transparent 143px,transparent 152px,#DB8F51 152px, #DB8F51 169px,transparent 169px );
+}
+
+.frame .inner2 {
+	background:linear-gradient(121deg,transparent 10px,#51DBB3 10px,#51DBB3 27px,transparent 27px, transparent 39px,#51DBB3 39px,#51DBB3 56px,transparent 56px,transparent 68px,#DBD651 68px,#DBD651 85px,transparent 85px,transparent 97px,#D3D5D4 97px,#D3D5D4 114px,transparent 114px,transparent 126px,#D3D5D4 126px,#D3D5D4 143px,transparent 143px,transparent 152px,#D3D5D4 152px, #D3D5D4 169px,transparent 169px );
+}
+
+.frame .inner3 {
+	background:linear-gradient(121deg,transparent 10px,#51DBB3 10px,#51DBB3 27px,transparent 27px, transparent 39px,#D3D5D4 39px,#D3D5D4 56px,transparent 56px,transparent 68px,#D3D5D4 68px,#D3D5D4 85px,transparent 85px,transparent 97px,#D3D5D4 97px,#D3D5D4 114px,transparent 114px,transparent 126px,#D3D5D4 126px,#D3D5D4 143px,transparent 143px,transparent 152px,#D3D5D4 152px, #D3D5D4 169px,transparent 169px );
+}
