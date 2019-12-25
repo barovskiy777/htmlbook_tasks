@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #333;
+}
+
+.container {
+	position: relative;
+	width: 180px;
+	height: 180px;
+	margin:30px auto;
+	
+}
+
+.venera {
+	width: 100%;
+	height: 100%;
+	background: url(../images/venera.png) center no-repeat,white;
+	border:5px solid #DBD7CF;
+	box-shadow: 0 0 0 3px #C3B69E;
+	position: absolute;
+	z-index: 3;
+	outline: 1px solid white
+
+}
+.venera-in {
+	content: "";
+	display: block;
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	border:5px solid #DBD7CF;
+	box-shadow: 0 0 0 3px #C3B69E;
+	transform: rotate(-5deg);
+	z-index: 2;
+
+
+
+}
+
+
+
