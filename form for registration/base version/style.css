@@ -1,0 +1,70 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+form {
+	width: 410px;
+	height: 280px;
+	border:3px solid #0075B2;
+	background: #0690CF;
+	margin: 30px ;
+	color:#fff;
+	
+	
+
+}
+
+form p {
+	height: 50px;
+	border-bottom: 1px solid #fff;
+	font-size: 1.6em;
+	margin-bottom: 40px;
+	width: 100%;
+	padding: 10px 20px;
+}
+
+input#email {
+	width:100%;
+	margin-bottom: 25px;
+
+
+}
+
+.container {
+	margin-left: 20px;
+	font-size:1em;
+	width:320px;
+
+
+}
+
+input#pass {
+	width:150px;
+	float: left;
+}
+ 
+input#pass_one_more {
+	width: 150px;
+	float:right;
+}
+
+label[for="pass_one_more"] {
+	float: right;
+	margin-right: 88px;
+}
+
+button{
+	margin-top:35px;
+	background: #FFDF7F;
+	width: 85px;
+	height: 30px;
+	border:none;
+	font-size: .8em;
+}
+
