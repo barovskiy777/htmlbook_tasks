@@ -1,0 +1,14 @@
+
+label {
+	display: block;
+	margin:10px 10px;
+}
+
+.check span{
+	padding:0 5px;
+}
+
+.check input[type="checkbox"]:checked + span{
+	background: #FFCC00;
+	;
+}
