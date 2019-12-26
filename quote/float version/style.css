@@ -1,0 +1,24 @@
+blockquote:after {
+	content: '»';
+	float:right;
+	margin-top:-1em;
+
+
+}
+
+blockquote:before {
+	content: '«';
+	float: left;
+	margin-top: -.5em;
+}
+
+blockquote:after, blockquote:before {
+	font-size:3em;
+	color:#800;
+}
+
+blockquote p {
+	margin: 1em 3em;
+	
+}
+

@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width:390px;
+	padding: 10px 50px;
+	position: relative;
+	margin: 20px;
+
+}
+
+.container p:first-child{
+	margin-bottom: 20px;
+}
+
+.container:before {
+	content: "\00ab";
+	position: absolute;
+	top:-15px;
+	left: 0;
+	font-size: 3em;
+	float: left;
+	margin-right: 30px;
+
+
+}
+
+
+.container:after {
+	content: "\00bb";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 3em;
+	float: right;
+
+}
