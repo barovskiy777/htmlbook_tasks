@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}					
+
+html,body{
+	height: 100%;
+	font-family: sans-serif;
+}
+
+body {	
+	background:repeating-linear-gradient(35deg,transparent 0, transparent 10px, #FBCC94 11px,#FBCC94 11px,transparent 12px, transparent 22px) no-repeat;
+	padding:20px;
+}
+
+
+.cont {
+	width: 100%;
+	border:5px solid rgba(0,216,113,.7);
+	border-radius:5px;
+
+
+}
+
+.cont h1 {
+	background: linear-gradient(rgb(255,216,0),rgb(252,192,27));
+	font-size: 1.2em;
+	padding: 5px;
+	font-weight: normal;
+}
+
+.cont p {
+	font-size:1em;
+	padding: 5px;
+	background: rgb(237,236,222);
+	min-height: 100px;
+}
+
+
+
+
+
+
