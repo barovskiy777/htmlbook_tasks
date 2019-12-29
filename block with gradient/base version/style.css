@@ -17,22 +17,36 @@ body {
 
 .cont {
 	width: 100%;
-	border:5px solid rgba(0,216,113,.7);
-	border-radius:5px;
-
-
+	border:10px solid rgba(96,196,173,.8);
+	box-shadow:0 0 0 2px #333;
+	border-radius: 5px;
 }
+
 
 .cont h1 {
 	background: linear-gradient(rgb(255,216,0),rgb(252,192,27));
 	font-size: 1.2em;
 	padding: 5px;
+	padding-left:10px;
 	font-weight: normal;
+	position: relative;
+
+}
+
+.cont h1:after {
+	content: "";
+	position:absolute;
+	border:12px solid transparent;
+	border-top:12px solid rgb(252,193,26);
+	bottom:-24px;
+	left:5px;
+	
 }
 
 .cont p {
 	font-size:1em;
-	padding: 5px;
+	padding: 10px;
+	padding-top:15px;
 	background: rgb(237,236,222);
 	min-height: 100px;
 }
