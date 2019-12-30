@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: lightblue;
+}
+
+.indicator {
+	margin:20px;
+	width: 250px;	
+	height: 22px;	
+	border:1px solid #000;
+	background: linear-gradient(to right, lightgreen 50%,white 50%);
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 1.3em;
+	text-align: center;
+
+}
+
+.left {
+	float: left;
+
+}
+
+.right {
+	float:right;
+}
+
+.indicator2 {
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 1.3em;
+	margin:20px;
+	width: 250px;	
+	height: 22px;	
+	border:1px solid #000;
+	background: linear-gradient(to right, lightgreen 50%,white 50%);
+	display: flex;
+	justify-content: space-between;
+
+}
