@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/*общий стиль для всех вариантов*/
+.frame {
+	margin: 30px;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+
+
+/*вариант 1*/
+.red-circle {
+	position:relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	border:30px solid #C70102;
+}
+
+.red-circle:after {
+	content: "";
+	position:absolute;
+	width: 70px;
+	height: 70px;
+	left: 35px;
+	top:35px;
+	border-radius: 100%;
+	background: #000E5E;
+	
+}
+
+/*вариант 2*/
+.frame-2 {
+	background: radial-gradient(#000E5E 25%,white 25%,white 50%,#C70102 50%, #C70102 70%,white 70%);
+}
+
+/*вариант 3*/
+.frame-3 {
+	
+	height: 70px;	
+	width: 70px;	
+	background: #000E5E;
+	border-radius: 100%;
+	margin:auto;
+	margin-top:60px;
+	box-shadow: 0 0 0 38px white,0 0 0 67px #C70102;
+}
+
+/*вариант 4*/
+.frame-4 div:nth-child(1){
+		height: 100%;	
+		width: 100%;	
+		border: 30px solid #C70102; 
+		border-radius: 100%;
+}
+
+.frame-4{
+	position: relative;
+
+}
+
+.frame-4 div:nth-child(2){
+	height: 70px;	
+	width: 70px;
+	background: #000E5E;
+	border-radius: 100%;
+	position: absolute;
+	top:33.3%;
+	left:33.3%;
+
+
+
+}
