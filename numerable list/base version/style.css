@@ -4,6 +4,8 @@
 	margin: 0;
 }
 
-.list1 {
-	margin: 30px;
+.list1,.list2 {
+	margin: 30px 40px;
+	list-style-type:decimal-leading-zero;
+
 }
