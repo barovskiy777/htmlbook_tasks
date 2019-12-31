@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+li {list-style: none}
+.menu div a{text-decoration: none;}
+.menu-f{margin-right: 30px;}
+
+.menu-f,.menu-p {
+	display:inline-block;
+	position: relative;
+	z-index: 1;
+	
+}
+
+
+
+.menu {
+	
+	display:inline-block;
+	margin:30px;
+}
+
+
+
+.menu-f >a, .menu-p >a {
+	position: relative;
+	display: inline-block;
+	padding:0 5px;
+	background: #fff;
+	border-radius: 5px 5px 0 0;
+	
+
+
+}
+
+.menu-f:hover >a:after, .menu-p:hover >a:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 10px rgb(0,0,0,.5);
+  top:0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.drop-menu{
+	position: absolute;
+	top: 26px;
+	box-shadow: 0 0 10px rgb(0,0,0,.5);
+	z-index: -1;
+	background: #fff;
+	padding: 2px;
+	display: none;
+}
+
+
+
+
+.drop-menu >p {
+	padding:5px 45px 5px 4px;
+	color:#0000EE;
+	
+
+}
+
+.drop-menu >p:hover, .drop-menu >p:hover a{
+	background: #37ABFF;
+	color:#fff;
+}
+
+.menu-f:hover .drop-menu, .menu-p:hover .drop-menu {
+	display: block;
+	
+	
+}
+
+.menu-f:hover >a,.menu-p:hover >a  {
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
