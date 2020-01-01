@@ -1,0 +1,21 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ol{
+	counter-reset: list;
+	margin: 40px;
+	list-style: none;
+
+}
+
+li::before{
+	counter-increment: list;
+	content:counter(list,decimal-leading-zero)".";
+}
+
+ol:last-of-type{
+	counter-reset: list 5;
+}
